@@ -1,0 +1,70 @@
+ul li {
+    list-style: none;
+}
+
+ul li:nth-child(1):hover {
+    color: yellow;
+}
+
+ul li:nth-child(2):hover {
+    color: yellow;
+}
+
+ul li:nth-child(3):hover {
+    color: orange;
+}
+
+ul li:nth-child(4):hover {
+    color: red;
+}
+
+ul li:nth-child(1)::before {
+    content: "🥭";
+}
+
+ul li:nth-child(2)::before {
+    content: "🍌";
+}
+
+ul li:nth-child(3)::before {
+    content: "🍊";
+}
+
+ul li:nth-child(4)::before {
+    content: "🍎";
+}
+
+ul li:nth-child(1)::after {
+    content: "❤";
+}
+
+ul li:nth-child(2)::after {
+    content: "🙌";
+}
+
+ul li:nth-child(3)::after {
+    content: "💕"
+}
+
+ul li:nth-child(4)::after {
+    content: "👌";
+}
+
+h1::first-letter {
+    color: lightsalmon;
+    font-size: 75px;
+}
+
+@keyframes fadeinout {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+h1 {
+    animation: fadeinout 2s ease-in-out;
+}
+
+p::first-line {
+    color: blueviolet;
+    font-size: 32px;
+}
