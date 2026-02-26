@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li, a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+main {
+    padding: 100px 40px 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    align-items: center;
+
+}
+
+.info p {
+    color: white;
+    padding: 3px;
+}
+
+.info h2 {
+    font-size: 42px;
+    padding: 5px;
+    color: white;
+}
+
+.info h3 {
+    font-size: 25px;
+    padding: 3px;
+    color: white;
+}
+
+
+.myimg img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+
+}
+
+.myimg {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #e3edf7;
+    border: none;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.btn:hover {
+    scale: 1.1;
+    transition: .2s ease-in-out;
+}
+
+.btn1 {
+    margin-right: 15px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 10px;
+}
+
+.about-img {
+    display: flex;
+    justify-content: right;
+    width: 56%;
+}
+
+.about-img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.about {
+    width: 38%;
+
+}
+
+.about p {
+    padding-bottom: 5px;
+}
+
+.about h2 {
+    font-size: 32px;
+}
+
+.skill h4 {
+    font-size: 20px;
+    padding: 20px 0 20px 0
+}
+
+.heading {
+    text-align: center;
+    margin: 30px;
+}
+
+.projects {
+    display: flex;
+    gap: 10px;
+    margin: 0 15px 0 15px;
+    
+}
+
+.first-project img {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.first-project h4 {
+    text-align: center;
+    padding: 10px 0 18px 0;
+    
+}
+
+.first-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.first-project:hover {
+    border: 2px solid rgb(30, 214, 30);
+}
+
+.heading {
+    text-align: center;
+    padding: 15px;
+}
