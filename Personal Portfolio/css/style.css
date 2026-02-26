@@ -8,6 +8,8 @@ header {
     justify-content: space-between;
     padding: 20px;
     background-color: #ffffff;
+    position: sticky;
+    top: 0;
 }
 
 .nav-links {
@@ -21,6 +23,10 @@ header {
     color: black;
     font-size: 18px;
     font-weight: 600;
+}
+
+.nav-links li a:hover {
+    color: #0280f6;
 }
 
 main {
@@ -99,6 +105,7 @@ main {
     width: 400px;
     height: 400px;
     border-radius: 20px;
+    box-shadow: 4px 5px 5px 4px #0280f6;
 }
 
 .about {
@@ -153,10 +160,29 @@ main {
 }
 
 .first-project:hover {
-    border: 2px solid rgb(30, 214, 30);
+    border: 2px solid #0280f6;
 }
 
 .heading {
     text-align: center;
     padding: 15px;
+}
+
+
+.div ul {
+    display: flex; 
+    gap: 20px;
+}
+
+.div ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
 }
